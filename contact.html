@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact</title>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <body class="backk">
+            <div class="can">
+                <body style="background-color:rgb(184, 174, 174);"></body>
+                <h3 class="top"><a id="top1" href="web">Home</a></h3>
+                <h3 class="top"><a id="top1" href="about_me.html">About Me</a></h3>
+                <h3 class="top"><a id="top1" href="#">Shop</a></h3>
+                <h3 class="top"><a id="top1" href="contact.html">Contact</a></h3>
+            </div>
+        <style>
+        
+body {
+  text-align: left;
+}
+form {
+  align-items: left; 
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgb(125, 92, 92);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #070000;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #64614c;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 15px;
+  background-color: #80ca6a;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: center;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.form-line{padding-left:0;}
+
+</style>
+</head>
+<body>
+
+<h2>Responsive Contact Section</h2>
+<p>Resize the browser window to see the effect.</p>
+
+<div class="container">
+  <div style="text-align:center">
+    <h1>Contact Uzzi</h1>
+  </div>
+  <form class ="Response-form" action="response.php" method="post"></form>
+  <div class="column">
+        <label for="fname"> Name</label>
+        <input type="text" id="fname" name="Name" placeholder="Your name....">
+        <label for="lname">Email</label>
+        <input type="text" id="lname" name="Email" placeholder="Your Email....">
+        <label for="Your Message">Message Uzzi</label>
+        <textarea id="subject" name="Message" placeholder="Your Message...." style="height:50px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+
+</body>
+</html>
